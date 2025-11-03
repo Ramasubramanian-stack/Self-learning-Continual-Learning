@@ -29,7 +29,7 @@ This proposal combines **incremental learning**, **federated learning**, and **q
 - Only **differentially private gradients** (not raw images) are shared with the central server.  
 - The **federated aggregator** computes secure global updates using encrypted, privacy-preserving averaging.
 
-🔹 *Quantum integration:* Federated updates can be transmitted using **Quantum Key Distribution (QKD)** for tamper-proof communication.
+ *Quantum integration:* Federated updates can be transmitted using **Quantum Key Distribution (QKD)** for tamper-proof communication.
 
 ---
 
@@ -80,7 +80,7 @@ This proposal combines **incremental learning**, **federated learning**, and **q
 | **User Metrics** | False Accept/Reject rates, feedback latency |
 | **A/B Testing** | Compare new model vs. stable baseline before deployment |
 
-🔹 *Quantum-Assisted Evaluation:*  
+ *Quantum-Assisted Evaluation:*  
 Quantum kernel visualization helps analyze embedding drift and boundary overlaps efficiently in high-dimensional spaces.
 
 ---
@@ -109,5 +109,5 @@ This design creates a **self-learning, privacy-first face recognition system** t
 The result is a forward-looking, ethically aligned, and technically robust continual learning framework suitable for **real-world deployment at scale**.
 
 ---
-> ✨ *"Continual learning is not just about updating weights — it's about designing systems that evolve responsibly."*  
-> — [Your Name]
+
+> — Ramasubramanian
